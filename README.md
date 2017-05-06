@@ -18,12 +18,13 @@ Put the package under your project folder and add the following in import:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://api.smsfusion.com.au/*
+All URIs are relative to *https://api.smsfusion.com.au/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*DefaultApi* | [**GetHLR**](docs/DefaultApi.md#gethlr) | **Get** /hlr/ | HLR number lookup
-*DefaultApi* | [**GetHLRCallback**](docs/DefaultApi.md#gethlrcallback) | **Get** /hlr-callback/ | HLR number lookup with results going to a callback URL
+*HLRApi* | [**GetHLR**](docs/HLRApi.md#gethlr) | **Get** /hlr/ | HLR number lookup
+*HLRApi* | [**GetHLRCallback**](docs/HLRApi.md#gethlrcallback) | **Get** /hlr-callback/ | HLR number lookup with results going to a callback URL
+*SMSApi* | [**SendSMS**](docs/SMSApi.md#sendsms) | **Get** /sms/ | Send an SMS
 
 
 ## Documentation For Models
@@ -32,6 +33,7 @@ Class | Method | HTTP request | Description
  - [HlrError](docs/HlrError.md)
  - [HlrResult](docs/HlrResult.md)
  - [OutOfCredit](docs/OutOfCredit.md)
+ - [SmsResult](docs/SmsResult.md)
 
 
 ## Documentation For Authorization
